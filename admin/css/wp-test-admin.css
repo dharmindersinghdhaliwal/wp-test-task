@@ -1,0 +1,45 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ 
+ .user-detail ul li {
+    display: block;    
+    text-align: left;
+    padding: 5px 10px;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    font-size: 14px;
+}
+.user-detail label {
+    font-weight: 700;
+    margin-right: 5px;
+}
+.loader {
+    position: fixed;
+    top: 50%;
+    margin: -50px 0px 0px -50px;
+    left: 50%;
+}
+.loader img{
+    width: 100px;
+}
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    min-width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+  div#myTable_filter{
+      margin-bottom:20px;
+  }
+  div#myTable_length {
+    margin-bottom: 20px;
+}
