@@ -1,24 +1,24 @@
 === wp-test-task ===
 Contributors: Dharminder Singh <br>
 Tags: test-task <br> 
-Requires at least: 5.0.0
-Tested up to: 5.4.2
-Requires PHP: 7.2
-Stable tag: 1.0
-License: GPL-2.0-only
+Requires at least: 5.0.0 <br>
+Tested up to: 5.4.2 <br>
+Requires PHP: 7.2 <br>
+Stable tag: 1.0 <br>
+License: GPL-2.0-only <br>
 License URI: #
-
+<br>
 This is a wp test task by inpsyde. A wp plugin to listing users and display deatail of each user.
+<br>
+== Installation == <br>
+There are two ways to download this plugin. Which are follows.<br>
 
-== Installation ==
-Basically, There are two ways to download this plugin. Which are follows.
+Download plugin from git hub (https://github.com/dharmindersinghdhaliwal/wp-test-task)  and download or clone zip file. <br>
+Go to wp-admin and select "Add new" from plugin menu.<br>
+Then click on browse button and select download zip file.<br>
 
-Download plugin from git hub (https://github.com/dharmindersinghdhaliwal/wp-test-task)  and download or clone zip file.
-Go to wp-admin and select "Add new" from plugin menu.
-Then click on browse button and select download zip file.
-
-Second option is download plugin using composer.
-Go to your wp project's root directory.
-Run followimg command. "composer require dharmindersinghdhaliwal/wp-test-task".
-By this you can download directly the plugin files into your plugin directory.
+Second option is download plugin using composer.<br>
+Go to your wp project's root directory.<br>
+Run followimg command. "composer require dharmindersinghdhaliwal/wp-test-task".<br>
+By this you can download directly the plugin files into your plugin directory.<br>
 After the download go to wp-admin and activate the plugin.
