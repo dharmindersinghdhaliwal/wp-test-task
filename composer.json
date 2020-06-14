@@ -1,17 +1,23 @@
 {
-  "name": "dharmindersinghdhaliwal/test-task",
+  "name": "dharmindersinghdhaliwal/wp-test-task",
   "description": "WordPress test task plugin",
   "keywords": ["wordpress", "plugin", "dharmindersinghdhaliwal"],  
-  "license": "MIT",
+  "license": "GPL-2.0-only",
+  "homepage": "https://github.com/dharmindersinghdhaliwal/wp-test-task.git",
   "authors": [
     {
       "name": "Dharminder Singh",
-      "email": "dhaliwal.dharminder@yahoo.com"      
+      "email": "dhaliwal.dharminder@yahoo.com",
+      "homepage": "https://github.com/dharmindersinghdhaliwal"
     }
   ],
   "type": "wordpress-plugin",
+   "support": {
+    "issues": "https://github.com/dharmindersinghdhaliwal/wp-test-task/issues"
+  },
   "require": {
     "php": ">=7.2",
     "composer/installers": "v1.0.6"
   }
+
 }
