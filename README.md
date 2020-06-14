@@ -1,4 +1,4 @@
-=== wp-test-task ===
+=== wp-test-task === <br>
 Contributors: Dharminder Singh <br>
 Tags: test-task <br> 
 Requires at least: 5.0.0 <br>
