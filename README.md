@@ -12,6 +12,7 @@ This is a wp test task by inpsyde. A wp plugin to listing users and display deat
 
 == Installation ==
 Basically, There are two ways to download this plugin. Which are follows.
+
 1: Download plugin from git hub (https://github.com/dharmindersinghdhaliwal/wp-test-task)  and download or clone zip file.
  1.1: Go to wp-admin and select \"Add new\"  from plugin menu.
  1.2: Then click on browse button and select download zip file.
