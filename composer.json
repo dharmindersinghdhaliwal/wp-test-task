@@ -17,8 +17,8 @@
   },
   "require": {
     "php": ">=7.2",
-    "composer/installers": "v1.0.6",
-    "dharmindersinghdhaliwal/wp-test-task": "1.0.0"
-  }
+    "composer/installers": "v1.0.6"
+  },
+  "minimum-stability":"dev"
 
 }
