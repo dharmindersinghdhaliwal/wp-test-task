@@ -1,7 +1,7 @@
 {
   "name": "dharmindersinghdhaliwal/wp-test-task",
   "description": "WordPress test task plugin",
-  "keywords": ["wordpress", "plugin", "dharmindersinghdhaliwal"],  
+  "keywords": ["wordpress", "plugin", "dharmindersinghdhaliwal"],
   "license": "GPL-2.0-only",
   "homepage": "https://github.com/dharmindersinghdhaliwal/wp-test-task.git",
   "authors": [
@@ -17,8 +17,8 @@
   },
   "require": {
     "php": ">=7.2",
-    "composer/installers": "v1.0.6"
-  },
-  "minimum-stability":"dev"
+    "composer/installers": "v1.0.6",
+    "dharmindersinghdhaliwal/wp-test-task": "1.0.0"
+  }
 
 }
