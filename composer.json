@@ -18,6 +18,6 @@
   "require": {
     "php": ">=7.2",
     "composer/installers": "v1.0.6",
-    "dharmindersinghdhaliwal/wp-test-task": "^1.0"
-  }  
+    "dharmindersinghdhaliwal/wp-test-task": "dev-master@dev"
+  }
 }
