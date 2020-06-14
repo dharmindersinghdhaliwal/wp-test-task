@@ -7,13 +7,14 @@ Requires PHP: 7.2 <br>
 Stable tag: 1.0 <br>
 License: GPL-2.0-only <br>
 License URI: #
-<br>
+<br><br>
 This is a wp test task by inpsyde. A wp plugin to listing users and display deatail of each user.
+<br>
 <br>
 == Installation == <br>
 There are two ways to download this plugin. Which are follows.<br>
 
-Download plugin from git hub (https://github.com/dharmindersinghdhaliwal/wp-test-task)  and download or clone zip file. <br>
+Download plugin from git hub (https://github.com/dharmindersinghdhaliwal/wp-test-task)  or clone zip file. <br>
 Go to wp-admin and select "Add new" from plugin menu.<br>
 Then click on browse button and select download zip file.<br>
 
