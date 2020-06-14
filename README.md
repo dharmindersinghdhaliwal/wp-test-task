@@ -1,5 +1,5 @@
 === wp-test-task ===
-Contributors: Dharminder Singh
+Contributors: Dharminder Singh <br>
 Tags: test-task
 Requires at least: 5.0.0
 Tested up to: 5.4.2
