@@ -1,0 +1,17 @@
+{
+  "name": "dharmindersinghdhaliwal/test-task",
+  "description": "WordPress test task plugin",
+  "keywords": ["wordpress", "plugin", "dharmindersinghdhaliwal"],  
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dharminder Singh",
+      "email": "dhaliwal.dharminder@yahoo.com"      
+    }
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=7.2",
+    "composer/installers": "v1.0.6"
+  }
+}
