@@ -18,6 +18,7 @@
   "require": {
     "php": ">=7.2",
     "composer/installers": "v1.0.6"
-  }
+  },
+  "minimum-stability":"dev"
 
 }
