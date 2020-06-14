@@ -1,6 +1,6 @@
 === wp-test-task ===
 Contributors: Dharminder Singh <br>
-Tags: test-task
+Tags: test-task <br> 
 Requires at least: 5.0.0
 Tested up to: 5.4.2
 Requires PHP: 7.2
