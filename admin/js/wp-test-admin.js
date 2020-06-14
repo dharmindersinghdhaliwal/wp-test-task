@@ -25,7 +25,7 @@ jQuery(document).ready(function(){
 				jQuery('#overlay').hide();
 				Swal.fire({
 					title: data.name,
-					html: "<div class='user-detail'><ul><li><label>Email:</label>"+data.email+"</li><li><label>Phone:</label>"+data.phone+"</li><li><label>Website:</label> <a href='"+data.website+"'>"+data.website+"</a></li><li><label>Street:</label>"+data.address.street+"</li><li><label>City:</label>"+data.address.city+"</li><li><label>Zip code:</label>"+data.address.zipcode+"</li></ul></div>",
+					html: "<div class='user-detail'><ul><li><label>Email:</label>"+data.email+"</li><li><label>Phone:</label>"+data.phone+"</li><li><label>Website:</label> <a href='https://"+data.website+"'>"+data.website+"</a></li><li><label>Street:</label>"+data.address.street+"</li><li><label>City:</label>"+data.address.city+"</li><li><label>Zip code:</label>"+data.address.zipcode+"</li></ul></div>",
 					icon: 'success',
 					showCancelButton: false,
 					confirmButtonColor: '#3085d6',

@@ -31,6 +31,7 @@ class Wp_Test_Activator {
 	 */
 	public static function activate() {		
 
+		add_option('wp_test_do_activation_redirect', true);
 	}
-
+	
 }

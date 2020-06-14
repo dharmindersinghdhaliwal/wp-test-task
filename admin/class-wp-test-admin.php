@@ -58,7 +58,7 @@ class Wp_Test_Admin {
 	 *
 	 * @since    1.0.0
 	 */
-	public function enqueue_styles() {		
+	public function enqueue_styles() {
 
 		wp_enqueue_style( $this->Wp_Test, plugin_dir_url( __FILE__ ) . 'css/wp-test-admin.css', array(), $this->version, 'all' );
 		wp_enqueue_style( 'data-tables', plugin_dir_url( __FILE__ ) . 'css/jquery.dataTables.min.css', array(), $this->version, 'all' );
@@ -71,7 +71,7 @@ class Wp_Test_Admin {
 	 *
 	 * @since    1.0.0
 	 */
-	public function enqueue_scripts() {		
+	public function enqueue_scripts() {
 
 		wp_enqueue_script( $this->Wp_Test, plugin_dir_url( __FILE__ ) . 'js/wp-test-admin.js', array( 'jquery' ), $this->version, false );
 		wp_enqueue_script( 'tables-script', plugin_dir_url( __FILE__ ) . 'js/jquery.dataTables.min.js', array( 'jquery' ), $this->version, false );
@@ -85,15 +85,14 @@ class Wp_Test_Admin {
 	 * @author Dharminder SIngh
 	 */
 	public function registerTestTaskMenu(){
-		add_menu_page( 
+		add_submenu_page( 
+			'',
 			__( 'Test Task','wp-test' ),
 			'Test Task',
 			'manage_options',
 			'test-task',
-			array($this,'pageHtml'),
-			'dashicons-media-spreadsheet',
-			6
-		); 
+			array($this,'pageHtml')
+		);
 	}
 
 	/**
@@ -111,6 +110,18 @@ class Wp_Test_Admin {
 			include(plugin_dir_path(__FILE__).'template-parts/Users.php');
 		}else{
 			echo '<h2>User List Empty</h2>';
+		}
+	}
+
+	/**
+	 * after activation redirect to customu url
+	 * @since 1.0.0
+	 * @author Dharminder SIngh
+	 */
+	public function wpTestRedirect() {
+		if (get_option('wp_test_do_activation_redirect', false)) {
+			delete_option('wp_test_do_activation_redirect');
+			 exit( wp_redirect("admin.php?page=test-task") );
 		}
 	}
 
